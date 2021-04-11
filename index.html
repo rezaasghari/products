@@ -148,7 +148,45 @@
                         </label>
                     </div>
                     <div class="row">
-                        <div class="col-md-5 mb-3"></div>
+                        <div class="col-md-5 mb-3">
+                            <label for="country">
+                                Country
+                            </label>
+                            <select name="" id="country" class="custom-select d-block w-100">
+                                <option value="">Choose..</option>
+                                <option>United States</option>
+                                <option>Canada</option>
+                                <option>England</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="state">
+                                State
+                            </label>
+                            <select name="" id="state" class="custom-select d-block w-100">
+                                <option value="">Choose</option>
+                                <option>New York</option>
+                                <option>California</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                            <label for="zipcode">
+                                Zipcode
+                            </label>
+                            <input type="text" class="form-control" id="zipcode">
+                        </div>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="same-address">
+                        <lable class="custom-control-label" for="same-address">
+                            Shipping address is the same as my billing address.
+                        </lable>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="save-information">
+                        <label for="save-information" class="custom-control-label">
+                            Save my address
+                        </label>
                     </div>
                 </form>
             </div>
